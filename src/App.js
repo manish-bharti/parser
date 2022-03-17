@@ -44,6 +44,7 @@ class Check extends React.PureComponent {
     show: 0,
   };
   render() {
+    
     let child = { ...this.props.children };
     child = { ...child.props.children };
     let only = [];
@@ -58,7 +59,7 @@ class Check extends React.PureComponent {
 
     return (
       <div className="container">
-      
+      <h1>project accepted</h1>
 
         <table>
           <tbody>{only}</tbody>
